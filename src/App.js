@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 
 
@@ -8,10 +7,7 @@ function App() {
   return (
     <div className="App">
       <React.StrictMode>
-      
-        <Header/>
-        <Home/>
-          
+        <Home ip={'157.46.165.199'}/>
       </React.StrictMode>
     </div>
   );

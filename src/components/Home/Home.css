@@ -1,67 +1,40 @@
-.v-container{
-     display: flex;
-     justify-content: center;
-     align-items: center;
+.items {
+  color: rgb(28, 29, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
+.details {
+  margin: 20px 100px;
+  width: 270px;
 }
 
-Video{
-     border-radius: 9px;
-     margin-top: 40px;
-     width: 60%;
-     max-height: 400px;
+.details > * {
+  margin: 5px;
 }
 
-.buttons{
-     display: flex;
-     justify-content: space-around;
-     width: 100%;
-     align-items: center;
+.details > p:nth-child(2) {
+  background-color: rgb(225,225,225);
 }
-
-.playandpause{
-     color: #fff;
-     border: none;
-     background-color: transparent;
-     font-size:40px ;
+.details > p:nth-child(4) {
+  background-color: rgb(225,225,225);
 }
-
-label{
-     color: #fff;
-     font-size: 15px;
+.details > p:nth-child(6) {
+  background-color: rgb(225,225,225);
 }
-
-select{
-     margin-left: 5px;
-     background-color: transparent;
-     color: rgb(255, 255, 255);
-     border: none;
+.details > p:nth-child(8) {
+  background-color: rgb(225,225,225);
 }
-option{
-     color: #fff;
-     background-color: black;
+.details > p:nth-child(10) {
+  background-color: rgb(225,225,225);
 }
-
-input {
-     margin-top: 20px;
-     width: 50%;
-     height: 25px;
-     font-size: 14px;
-     border-radius: 5px;
-     padding-left: 5px;
-   }
-   
-   .enter {
-     margin-top: 20px;
-     margin-left: 10px;
-     width: 50px;
-     height: 30px;
-     font-size: 15px;
-     border-radius: 5px;
-   }
+.details > p:nth-child(12) {
+  background-color: rgb(225,225,225);
+}
+.details > p:nth-child(14) {
+  background-color: rgb(225,225,225);
+}
+.details > p:nth-child(16) {
+  background-color: rgb(225, 225, 225);
+}

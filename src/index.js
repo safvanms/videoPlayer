@@ -8,9 +8,11 @@ function Index() {
 
     return (
         <div >
-           <App/>
+            <React.StrictMode>
+                <App />
+            </React.StrictMode>
         </div>
     )
 }
 
-ReactDOM.render(<Index/>, document.getElementById('root'));
+ReactDOM.render(<Index />, document.getElementById('root'));
